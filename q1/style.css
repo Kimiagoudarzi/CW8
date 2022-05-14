@@ -1,0 +1,68 @@
+body{
+    background-image: url(./images/background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+header{
+    margin-top: 76px;
+    position: relative;
+}
+.menu-btn{
+    background-color: transparent;
+    cursor: pointer;
+    position: absolute;
+    left: 65px;
+    top: 0;
+    border: unset;
+}
+.menu-btn img{
+    width: 70px;
+    height: 30px;
+}
+header nav{
+    display: flex;
+    justify-content: center;
+}
+header nav a, header nav a:hover{
+    color: #fff;
+    text-decoration: unset;
+    font-size: 21px;
+    padding-left: 26px;
+    padding-right: 26px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+main img{
+    width: 1229px;
+    height: 841px;
+    margin-left: 543px;
+}
+main h2{
+    color: #fff;
+    position: absolute;
+    left: 237px;
+    top: 153px;
+    font-size: 101px;
+    font-family: sans-serif;
+    width: 667px;
+    height: 304px;
+    z-index: -1;
+    line-height: 101px;
+}
+main h2 span{
+   text-transform: capitalize;
+   font-style: italic;
+}
+main h2 .title{
+    text-transform: uppercase;
+    color: #DB2423;
+}
+main p{
+    color: #fff;
+    font-size: 23px;
+    margin-top: 21px;
+}
